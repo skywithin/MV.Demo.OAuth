@@ -1,6 +1,8 @@
 # MV.Demo.OAuth
  OAuth2 and OpenID
 
- dotnet new -i IdentityServer4.Templates
+ dotnet new -i IdentityServer4.Templates  <=== Install IdentityServer4 templates
  
- dotnet new is4empty -n MV.Demo.IDP
+ src>dotnet new is4empty -n MV.Demo.IDP   <=== Add IdentityServer project to solution
+ 
+ src\MV.Demo.IDP>dotnet new is4ui         <=== Add user interface for IdentityServer

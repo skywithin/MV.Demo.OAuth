@@ -27,8 +27,9 @@ namespace MV.Demo.IDP
                 new Client
                 {
                     ClientName = "Image Gallary",
-                    ClientId = "imagegallaryclient",
+                    ClientId = "imagegalleryclient",
                     AllowedGrantTypes = GrantTypes.Code,
+                    RequirePkce = true,
                     RedirectUris =
                         new[]
                         {

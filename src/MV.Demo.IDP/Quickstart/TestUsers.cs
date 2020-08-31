@@ -8,6 +8,7 @@ using System.Collections.Generic;
 using System.Security.Claims;
 using System.Text.Json;
 using IdentityServer4;
+using System.Runtime.InteropServices.ComTypes;
 
 namespace IdentityServerHost.Quickstart.UI
 {
